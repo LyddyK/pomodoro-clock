@@ -1,0 +1,61 @@
+.App {
+    background-color: rgb(48, 48, 47);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+Session {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#time-left-reset {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+}
+.time-sets {
+    height: 15em;
+    width: 40em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.format {
+    display: flex;
+    flex-direction: row;
+    width: 10em;
+    justify-content: space-between;
+    margin-top: -3em;
+}
+.time-labels {
+    font-size: 30px;
+    font-weight: bold;
+    color: crimson;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#start_stop {
+    width: 100%;
+}
+.inc-dec {
+    height: 3em;
+    width: 3em;
+    align-self:center;
+}
+.title-labels {
+    display: flex;
+    font-size: 40px;
+    font-weight: bolder;
+    color:cyan;
+    justify-content: center;
+    align-items: center;
+    
+
+}
